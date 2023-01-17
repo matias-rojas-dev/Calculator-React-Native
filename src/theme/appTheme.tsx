@@ -5,8 +5,40 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'black',
   },
-  text: {
+  calculadoraContainer: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    paddingHorizontal: 20,
+  },
+  resultado: {
     color: 'white',
-    fontSize: 20,
+    fontSize: 60,
+    textAlign: 'right',
+  },
+  resultadoPequeno: {
+    color: 'rgba(255,255,255,0.5)',
+    fontSize: 30,
+    textAlign: 'right',
+  },
+  fila: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginBottom: 18,
+    paddingHorizontal: 10,
+  },
+  boton: {
+    height: 80,
+    width: 80,
+    backgroundColor: '#2d2d2d',
+    borderRadius: 100,
+    justifyContent: 'center',
+    marginHorizontal: 10,
+  },
+  botonTexto: {
+    textAlign: 'center',
+    padding: 10,
+    fontSize: 30,
+    color: 'white',
+    fontWeight: 'bold',
   },
 });
